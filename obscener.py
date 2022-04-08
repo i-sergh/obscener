@@ -6,9 +6,10 @@ print(os.getcwd())
 
 print(os.listdir())
 
-os.chdir('..')
-os.chdir('test')
+
+os.chdir('test\empty')
 print(os.listdir())
+"""
 #print('Новый текстовый документ*' in os.listdir())
 for name in os.listdir():
     if re.search( 'Новый текстовый документ', name):
@@ -21,3 +22,4 @@ os.chdir('test/n')
 #os.rename('chMe.txt', 'wow.txt')
 
 print(os.listdir())
+"""
